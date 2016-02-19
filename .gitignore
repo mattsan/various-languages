@@ -1,0 +1,7 @@
+.crystal/
+erl_crash.dump
+*.beam
+*.dylib
+*.hi
+*.o
+*.ppu
