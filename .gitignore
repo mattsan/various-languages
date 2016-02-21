@@ -1,7 +1,10 @@
 .crystal/
+elm-stuff/
+elm-package.json
 erl_crash.dump
 *.beam
 *.dylib
 *.hi
+*.html
 *.o
 *.ppu
