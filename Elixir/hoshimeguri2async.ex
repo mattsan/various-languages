@@ -1,7 +1,7 @@
 # $ elixirc hoshimeguri2async.ex
-# $ elixir -e 'Hoshimegrui2async.main' ../data.txt
+# $ elixir -e 'Hoshimeguri2async.main' ../data.txt
 
-defmodule Hoshimegrui2async do
+defmodule Hoshimeguri2async do
 
   defmodule Solver do
     @star ~c(AHCJEBGDIF)

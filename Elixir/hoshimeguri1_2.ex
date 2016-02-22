@@ -1,5 +1,5 @@
 # $ elixirc hoshimeguri1_2.ex
-# $ elixir -e 'Hoshimegrui1_2.main' ../data.txt
+# $ elixir -e 'Hoshimeguri1_2.main' ../data.txt
 
 defmodule Solver do
 
@@ -42,7 +42,7 @@ defmodule Tester do
   end
 end
 
-defmodule Hoshimegrui1_2 do
+defmodule Hoshimeguri1_2 do
   defp read_lines(device) do
     line = IO.read(device, :line)
     case line do

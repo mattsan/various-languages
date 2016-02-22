@@ -1,7 +1,7 @@
 # $ elixirc hoshimeguri2.ex
-# $ elixir -e 'Hoshimegrui2.main' ../data.txt
+# $ elixir -e 'Hoshimeguri2.main' ../data.txt
 
-defmodule Hoshimegrui2 do
+defmodule Hoshimeguri2 do
 
   defmodule Solver do
     @star ~c(AHCJEBGDIF)
