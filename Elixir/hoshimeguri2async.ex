@@ -1,5 +1,8 @@
-# $ elixirc hoshimeguri2async.ex
-# $ elixir -e 'Hoshimeguri2async.main' ../data.txt
+# ビルド:
+#   $ elixirc hoshimeguri2async.ex
+#
+# 実行:
+#   $ elixir -e 'Hoshimeguri2async.main' ../data.txt
 
 defmodule Hoshimeguri2async do
 

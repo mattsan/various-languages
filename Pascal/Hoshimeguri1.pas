@@ -1,6 +1,9 @@
 {
-  $ fpc Hoshimeguri1
-  $ ./Hoshimeguri1 ../data.txt
+  ビルド:
+    $ fpc Hoshimeguri1
+
+  実行:
+    $ ./Hoshimeguri1 ../data.txt
 }
 
 program Hoshimeguri1;

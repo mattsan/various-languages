@@ -1,6 +1,11 @@
-; $ nasm -f macho hoshimeguri1.asm
-; $ ld -macosx_version_min 10.7.0 -o hoshimeguri1 hoshimeguri1.o
-; $ ./hoshimeguri1 ../data.txt
+; アセンブル:
+;   $ nasm -f macho hoshimeguri1.asm
+;
+; リンク:
+;   $ ld -macosx_version_min 10.7.0 -o hoshimeguri1 hoshimeguri1.o
+;
+; 実行:
+;   $ ./hoshimeguri1 ../data.txt
 
 BUFFER_SIZE     equ     65536
 LINE_SIZE       equ     256

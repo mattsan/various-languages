@@ -1,3 +1,9 @@
+//  ビルド:
+//    $ go build hoshimeguri2.go
+//
+//  実行:
+//    $ ./hoshimeguri2 ../data.txt
+
 package main
 
 import (

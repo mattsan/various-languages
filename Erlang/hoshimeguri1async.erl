@@ -1,5 +1,8 @@
-% $ erlc hoshimeguri1async.erl
-% $ erl -run hoshimeguri1async main --noshell -data ../data.txt 
+% ビルド:
+%   $ erlc hoshimeguri1async.erl
+%
+% 実行:
+%   $ erl -run hoshimeguri1async main --noshell -data ../data.txt
 
 -module(hoshimeguri1async).
 -export([main/0]).

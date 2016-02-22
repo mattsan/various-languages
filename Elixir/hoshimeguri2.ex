@@ -1,5 +1,8 @@
-# $ elixirc hoshimeguri2.ex
-# $ elixir -e 'Hoshimeguri2.main' ../data.txt
+# ビルド:
+#   $ elixirc hoshimeguri2.ex
+#
+# 実行:
+#   $ elixir -e 'Hoshimeguri2.main' ../data.txt
 
 defmodule Hoshimeguri2 do
 

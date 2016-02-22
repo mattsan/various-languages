@@ -1,4 +1,5 @@
-# $ elixir -r hoshimeguri1.ex ../data.txt
+# 実行:
+#   $ elixir -r hoshimeguri1.ex -- ../data.txt
 
 defmodule Solver do
 

@@ -1,7 +1,12 @@
--- $ elm-package install evancz/elm-html
--- $ elm-package install evancz/start-app
--- $ elm make hoshimeguri1.elm
--- $ open input.html
+-- パッケージのインストール
+--    $ elm-package install evancz/elm-html
+--    $ elm-package install evancz/start-app
+--
+-- ビルド:
+--    $ elm make hoshimeguri1.elm
+--
+-- 実行:
+--    input.html をブラウザで開く
 
 import Graphics.Element exposing (Element, show)
 import Html exposing (div, textarea, table, thead, tfoot, tbody, tr, th, td, text)

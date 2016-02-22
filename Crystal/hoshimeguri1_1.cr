@@ -1,4 +1,14 @@
-# $ crystal hoshimeguri1_1.cr -- ../data.txt
+# star.c, libs/solver1.cr, libs/tester1.cr を利用する
+#
+# ライブラリのビルド:
+#   $ gcc -dynamiclib -o libstar.dylib star.c
+#
+# 実行:
+#   $ crystal hoshimeguri1_1.cr -- ../data.txt
+#
+# ビルドしてからの実行:
+#   $ crystal build hoshimeguri1_1.cr
+#   $ ./hoshimeguri1_1 ../data.txt
 
 require "tester1"
 

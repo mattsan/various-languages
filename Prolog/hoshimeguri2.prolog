@@ -1,4 +1,5 @@
-% $ gprolog --consult-file hoshimeguri2.prolog --entry-goal main -- ../data.txt
+% 実行:
+%   $ gprolog --consult-file hoshimeguri2.prolog --entry-goal main -- ../data.txt
 
 index_char(I, C) :- nth0(I, "AHCJEBGDIF", C).
 

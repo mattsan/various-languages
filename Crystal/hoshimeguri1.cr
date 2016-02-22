@@ -1,4 +1,9 @@
-# $ crystal hoshimeguri1.cr -- ../data.txt
+# 実行:
+#   $ crystal hoshimeguri1.cr -- ../data.txt
+#
+# ビルドしてからの実行:
+#   $ crystal build hoshimeguri1.cr
+#   $ ./hoshimeguri1 ../data.txt
 
 STAR =
 {

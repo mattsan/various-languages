@@ -1,5 +1,8 @@
-% $ erlc hoshimeguri2.erl
-% $ erl -run hoshimeguri2 main --noshell -data ../data.txt 
+% ビルド:
+%   $ erlc hoshimeguri2.erl
+%
+% 実行:
+%   $ erl -run hoshimeguri2 main --noshell -data ../data.txt
 
 -module(hoshimeguri2).
 -export([main/0]).

@@ -1,6 +1,9 @@
-% $ erlc hoshimeguri2async.erl
-% $ erl -sname solver
-% $ erl -run hoshimeguri2async main --noshell -sname tester -node solver@<hostname> -data ../data.txt 
+% ビルド:
+%   $ erlc hoshimeguri2async.erl
+%
+% 実行: 二つのコンソールを開いて、まず solver ノードを起動し、次に tester ノードを実行する
+%   $ erl -sname solver
+%   $ erl -run hoshimeguri2async main --noshell -sname tester -node solver@<hostname> -data ../data.txt
 
 -module(hoshimeguri2async).
 -export([main/0, solver/0]).

@@ -1,3 +1,9 @@
+//  ビルド:
+//    $ rustc hoshimeguri1.rs
+//
+//  実行:
+//    $ ./hoshimeguri1 ../data.txt
+
 fn star(p: char, c: char) -> char {
     match (p, c) {
         ('A', 'W') => 'I',

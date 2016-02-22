@@ -1,6 +1,11 @@
 (*
-  $ fpc Hoshimeguri2
-  $ ./Hoshimeguri2 ../data.txt
+  外部モジュール Solver2.pas を利用
+
+  ビルド:
+    $ fpc Hoshimeguri2
+
+  実行:
+    $ ./Hoshimeguri2 ../data.txt
 *)
 program Hoshimeguri2;
 {$mode objfpc}

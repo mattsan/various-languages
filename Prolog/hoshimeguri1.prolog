@@ -1,4 +1,5 @@
-% $ gprolog --consult-file hoshimeguri1.prolog --entry-goal main -- ../data.txt
+% 実行:
+%   $ gprolog --consult-file hoshimeguri1.prolog --entry-goal main -- ../data.txt
 
 star(0'A, 0'W, 0'I).
 star(0'A, 0'R, 0'H).

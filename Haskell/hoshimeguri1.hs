@@ -1,5 +1,8 @@
--- $ ghc --make hoshimeguri1.hs
--- $ ./hoshimeguri1 ../data.txt
+--  ビルド:
+--    $ ghc --make hoshimeguri1.hs
+--
+--  実行:
+--    $ ./hoshimeguri1 ../data.txt
 
 import System.Environment
 import System.IO

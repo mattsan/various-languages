@@ -1,4 +1,9 @@
-# $ crystal hoshimeguri2.cr -- ../data.txt
+# 実行:
+#   $ crystal hoshimeguri2.cr -- ../data.txt
+#
+# ビルドしてからの実行:
+#   $ crystal build hoshimeguri2.cr
+#   $ ./hoshimeguri2 ../data.txt
 
 STAR = ['A', 'H', 'C', 'J', 'E', 'B', 'G', 'D', 'I', 'F']
 
