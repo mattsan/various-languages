@@ -50,6 +50,6 @@ main() ->
   {ok, Handle} = file:open(Filename, read),
   Lines = read_lines(Handle),
   file:close(Handle),
-  lists:map(fun test/1, Lines),
+  lists:foreach(fun test/1, Lines),
   io:nl(),
   halt().

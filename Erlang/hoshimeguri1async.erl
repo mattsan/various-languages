@@ -55,7 +55,7 @@ judge(N) ->
   end.
 
 test(Lines) ->
-  lists:map(
+  lists:foreach(
     fun(Line) ->
       [Input, Expected] = string:tokens(Line, [$ , $\n]),
       Solver = spawn(fun solve/0),

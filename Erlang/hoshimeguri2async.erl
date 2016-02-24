@@ -59,7 +59,7 @@ judge(N) ->
   end.
 
 test(Solver, Lines) ->
-  lists:map(
+  lists:foreach(
     fun(Line) ->
       [Input, Expected] = string:tokens(Line, " \n"),
       Solver ! {self(), Input, Expected}
