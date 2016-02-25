@@ -33,4 +33,4 @@ test [input, expected] =
   where
     actual = solve input
 
-main = getArgs >>= return.head >>= (flip $ openFile) ReadMode >>= hGetContents >>= mapM_ (test.words).lines >> putStrLn ""
+main = getArgs >>= return.head >>= (flip openFile) ReadMode >>= hGetContents >>= mapM_ (test.words).lines >> putStrLn ""
